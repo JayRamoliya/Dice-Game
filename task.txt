@@ -1,0 +1,71 @@
+video link -> https://youtu.be/DY9LK7mq86s?si=AswlKNTXMQ8KNQPy
+
+1. clean all css file
+
+2. all images dawnload 
+
+3. show this page https://styled-components.com/docs
+    install cmd -> npm install styled-components
+
+    add some code in package.json if check it in last in package.json file
+
+4. import styled-components in app.jsx,
+    create a button components,
+    add css for this components
+
+5. install vscode-styled-components extensions
+
+6. create a components folder,
+    inside StartGame.jsx
+
+7. import StartGame.jsx inside App.jsx file
+
+8. title change
+
+9. add Poppins fonts 
+
+10. write a code StartGame.jsx,
+    import styled-components in StartGame.jsx
+    create a Container components for css part,
+    create a Button components for css part,
+
+    write all css for this page.
+
+11. Inside App component,
+    Define a useState() & create a Toggle Button for that & pass toggle prop as reff in the StartGame component & import it into StartGame.jsx 
+
+12. create a TotalScore.jsx Component.
+    inside -  create Total Score component & create state for TotalScore & write css for that
+
+13. create a NumberSelector.jsx component
+    inside -  create Number Selector component & create state for numbers & for Selecting Number 1 to 6 & write css for that 
+
+14. create a GamePlay.jsx Component.   
+    inside - import Component TotalScore.jsx & NumberSelector.jsx & write css for that
+
+15. create a RoleDice.jsx Component.
+    RoleDice import inside GamePlay.jsx
+    inside - DiceContainer component & write css
+
+16. In GamePlay.jsx Component- 
+     Indise - NumberSelector.jsx & RoleDice.jsx, so for that both components are imported now in GamePlay.jsx. 
+                & move functions generateRandomNumber() & roleDice() also into GamePlay.jsx
+                - create a function for compare two components value for the update total Score
+                - create a function for check the number is selected or not, if not then show the error.
+                - create a Reset Button for reset the game 
+                - create a Show & hide Rule Button for games rules (This button is Toggle Button)
+                && pass All values via props.. 
+
+17. create styled Folder 
+    Indise - create Button.js for Customisable Button's CSS & import them into whever we want to use. 
+
+18. create Rule.jsx Component
+   - for the Games Rules & import it into GamePlay.jsx
+
+summary - how to use useState hook for state management
+        - how to pass props 
+        - install styled-components
+        - install vscode-styled-components extensions
+
+
+
